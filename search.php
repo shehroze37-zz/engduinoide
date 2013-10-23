@@ -9,7 +9,7 @@
 
 <h1>Search here please!</h1>
 <p>Enter email address to search for user</p>
-<form method="post" action="index.php" enctype="multipart/form-data" >
+<form method="post" action="search.php" enctype="multipart/form-data" >
       Email <input type="text" name="search_email" id="search_email"/></br>
       <input type="submit" name="submit" value="Submit" />
 </form>
