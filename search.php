@@ -46,7 +46,7 @@
 
 		$search_email = $_POST['search_email'] ;
 
-		$sql_select = "SELECT * FROM registration_tbl WHERE email = '$search_email'";
+		$sql_select = "SELECT * FROM registration_tbl WHERE email LIKE '%$search_email%'";
 		
 		
 		$stmt = $conn->query($sql_select);
